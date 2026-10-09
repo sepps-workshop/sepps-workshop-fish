@@ -74,7 +74,7 @@ The design system has no role for these variables, so the theme leaves them out 
 - `fish_pager_color_background`
 - `fish_pager_color_secondary_background`, `fish_pager_color_secondary_completion`, `fish_pager_color_secondary_description`, `fish_pager_color_secondary_prefix`
 
-Current fish versions clear these when you choose a theme, so they are drawn plain and do not keep what a previous theme put there. If you want one of them styled, set it yourself after the `fish_config theme choose` line.
+From fish 3.5 on, choosing a theme clears these, so they do not keep what a previous theme put there; on fish 3.4 they may. Cleared, the secondary pager colours fall back to the primary ones and the rest are drawn plain. If you want one of them styled, set it yourself after the `fish_config theme choose` line.
 
 ## Contributing
 
