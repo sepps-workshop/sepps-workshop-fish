@@ -1,0 +1,39 @@
+{
+  "name": "sepps-workshop-fish",
+  "description": "One dark color theme for the fish shell on sepp.med Darkblue. WCAG AA verified.",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "sepp.med gmbh"
+  },
+  "homepage": "https://github.com/sepps-workshop/sepps-workshop-fish",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sepps-workshop/sepps-workshop-fish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sepps-workshop/sepps-workshop-fish/issues"
+  },
+  "keywords": [
+    "fish",
+    "fish-shell",
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "wcag",
+    "accessibility",
+    "sepps-workshop"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test src/theme-template.test.mjs src/fish.test.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@sepps-workshop/design-system": "file:../sepps-workshop-design-system",
+    "prettier": "^3.9.9"
+  }
+}

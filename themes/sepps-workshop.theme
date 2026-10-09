@@ -1,0 +1,34 @@
+# name: 'Sepp’s Workshop'
+# url: 'https://github.com/sepps-workshop/sepps-workshop-fish'
+# preferred_background: 0d3174
+
+fish_color_command 80c7e7
+fish_color_keyword fbba00
+fish_color_option b3ddf1
+fish_color_normal e7eaf1
+fish_color_param e7eaf1
+fish_color_quote f7c29c
+fish_color_operator b6c1d5
+fish_color_end b6c1d5
+fish_color_redirection b6c1d5
+fish_color_escape f29452
+fish_color_comment 9eadc7 --italics
+fish_color_autosuggestion 9eadc7
+fish_color_error ff897b
+fish_color_status ff897b
+fish_color_valid_path --underline
+fish_color_selection --background=1a212d
+fish_color_search_match --background=2e3964
+fish_pager_color_selected_background --background=384a5f
+fish_pager_color_selected_completion e7eaf1
+fish_pager_color_selected_description b6c1d5
+fish_pager_color_selected_prefix fbba00
+fish_pager_color_prefix fbba00
+fish_pager_color_completion e7eaf1
+fish_pager_color_description 9eadc7
+fish_pager_color_progress 9eadc7
+fish_color_cwd fbba00
+fish_color_cwd_root ff897b
+fish_color_user 80c7e7
+fish_color_host b6c1d5
+fish_color_host_remote f59c00
