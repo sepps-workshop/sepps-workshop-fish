@@ -30,6 +30,14 @@ mkdir -p ~/.config/fish/themes
 curl -fsSL https://raw.githubusercontent.com/sepps-workshop/sepps-workshop-fish/main/themes/sepps-workshop.theme -o ~/.config/fish/themes/sepps-workshop.theme
 ```
 
+Or clone the repository and copy the file:
+
+```fish
+git clone https://github.com/sepps-workshop/sepps-workshop-fish
+mkdir -p ~/.config/fish/themes
+cp sepps-workshop-fish/themes/sepps-workshop.theme ~/.config/fish/themes/
+```
+
 Then switch it on by adding one line to `~/.config/fish/config.fish`:
 
 ```fish
@@ -38,11 +46,11 @@ fish_config theme choose sepps-workshop
 
 `fish_config theme choose` applies to the running session only, so this line is what makes the theme stick. To look before you commit, run `fish_config theme show sepps-workshop`.
 
-You need fish 3.4 or later. The theme is tested with fish 4.9.
+The theme is tested with fish 4.9. Theme files need fish 3.4 or later.
 
 ## Recommended companions
 
-- **Terminal colours**: a fish theme colours the command line, not the terminal. This one expects a Darkblue terminal background (`#0d3174` in the design system) and looks best with the sixteen Sepp’s Workshop ANSI colours, which belong to the terminal port. On another background the text stays readable, but selections and the selected pager row are tuned for Darkblue.
+- **Terminal colours**: a fish theme colours the command line, not the terminal. This one expects a Darkblue terminal background (`#0d3174` in the design system) and looks best with the sixteen Sepp’s Workshop ANSI colours, which belong to the terminal port. Every colour is chosen and checked for that background. On another dark background selections and the selected pager row will look off, and on a light one the text is hard to read.
 - **Font**: themes cannot ship fonts. The design system recommends [JetBrains Mono](https://www.jetbrains.com/lp/mono/), or [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) if your prompt shows icons.
 - **Prompt**: the theme does not touch your prompt. It sets the colours fish's own prompts use for the directory, the user and the host; a [Starship](https://starship.rs) prompt brings its own.
 
@@ -66,7 +74,7 @@ The design system has no role for these variables, so the theme leaves them out 
 - `fish_pager_color_background`
 - `fish_pager_color_secondary_background`, `fish_pager_color_secondary_completion`, `fish_pager_color_secondary_description`, `fish_pager_color_secondary_prefix`
 
-On fish 4.3 or later, choosing a theme clears what the previous theme put there, so these are drawn plain. If you want one of them styled, set it yourself after the `fish_config theme choose` line.
+Current fish versions clear these when you choose a theme, so they are drawn plain and do not keep what a previous theme put there. If you want one of them styled, set it yourself after the `fish_config theme choose` line.
 
 ## Contributing
 
