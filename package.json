@@ -33,7 +33,7 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
-    "@sepps-workshop/design-system": "file:../sepps-workshop-design-system",
+    "@sepps-workshop/design-system": "^0.7.0",
     "prettier": "^3.9.9"
   }
 }
