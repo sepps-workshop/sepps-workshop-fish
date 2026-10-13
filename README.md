@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/license-MIT-b2b2b2" alt="MIT license" />
 </p>
 
-One dark colour theme for the [fish shell](https://fishshell.com/), built on sepp.med Darkblue with Sunset yellow as the accent. It colours what you type and the completion pager. There are no variants and nothing to configure: this is the one theme.
+One dark colour theme for the [fish shell](https://fishshell.com/), in the sepp.med colours, with Sunset yellow as the accent. It colours what you type and the completion pager. There are no variants and nothing to configure: this is the one theme.
 
 The colours come from the [Sepp’s Workshop design system](https://github.com/sepps-workshop/sepps-workshop-design-system), whose build refuses to ship a text colour that fails WCAG AA on its background. That includes the text on a selection and on the selected row of the pager.
 
@@ -50,7 +50,7 @@ The theme is tested with fish 4.9. Theme files need fish 3.4 or later.
 
 ## Recommended companions
 
-- **Terminal colours**: a fish theme colours the command line, not the terminal. This one expects a Darkblue terminal background (`#0d3174` in the design system) and looks best with the sixteen Sepp’s Workshop ANSI colours, which [Sepp’s Workshop for Windows Terminal](https://github.com/sepps-workshop/sepps-workshop-windows-terminal) sets. Every colour is chosen and checked for that background. On another dark background selections and the selected pager row will look off, and on a light one the text is hard to read.
+- **Terminal colours**: a fish theme colours the command line, not the terminal. This one expects the dark blue terminal background of the design system (`#14284c`, a shade darker than Darkblue; the embedded terminal of [Sepp’s Workshop for VS Code](https://github.com/sepps-workshop/sepps-workshop-vs-code) has it too) and looks best with the sixteen Sepp’s Workshop ANSI colours, which [Sepp’s Workshop for Windows Terminal](https://github.com/sepps-workshop/sepps-workshop-windows-terminal) sets. Every colour is chosen and checked for that background. On another dark background selections and the selected pager row will look off, and on a light one the text is hard to read.
 - **Font**: themes cannot ship fonts. The design system recommends [JetBrains Mono](https://www.jetbrains.com/lp/mono/), or [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) if your prompt shows icons.
 - **Prompt**: the theme does not touch your prompt. It sets the colours fish's own prompts use for the directory, the user and the host; a [Starship](https://starship.rs) prompt brings its own, and [Sepp’s Workshop for Starship](https://github.com/sepps-workshop/sepps-workshop-starship) gives it the same colours.
 
@@ -64,7 +64,7 @@ A few things follow from the palette and are deliberate:
 - Comments and autosuggestions share a colour. Comments are italic, which tells them apart.
 - A selection darkens the background and keeps the syntax colours on top of it.
 - Red is a signal only: errors, a failed status, the root user's directory.
-- fish cannot blend colours, so the backgrounds of selections and of the selected pager row are computed for the Darkblue terminal background.
+- fish cannot blend colours, so the backgrounds of selections and of the selected pager row are computed for that terminal background.
 
 ### Not set by the theme
 
