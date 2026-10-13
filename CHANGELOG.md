@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-13
+
 ### Changed
 
 - The theme builds on `@sepps-workshop/design-system` 0.9.0, which moves the terminal background from Darkblue (`#0d3174`) to the darker canvas (`#14284c`). The backgrounds of a selection, a search match and the selected pager row are computed for the new background, and `preferred_background` names it.
