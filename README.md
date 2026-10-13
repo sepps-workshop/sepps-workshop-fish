@@ -50,9 +50,9 @@ The theme is tested with fish 4.9. Theme files need fish 3.4 or later.
 
 ## Recommended companions
 
-- **Terminal colours**: a fish theme colours the command line, not the terminal. This one expects a Darkblue terminal background (`#0d3174` in the design system) and looks best with the sixteen Sepp’s Workshop ANSI colours, which belong to the terminal port. Every colour is chosen and checked for that background. On another dark background selections and the selected pager row will look off, and on a light one the text is hard to read.
+- **Terminal colours**: a fish theme colours the command line, not the terminal. This one expects a Darkblue terminal background (`#0d3174` in the design system) and looks best with the sixteen Sepp’s Workshop ANSI colours, which [Sepp’s Workshop for Windows Terminal](https://github.com/sepps-workshop/sepps-workshop-windows-terminal) sets. Every colour is chosen and checked for that background. On another dark background selections and the selected pager row will look off, and on a light one the text is hard to read.
 - **Font**: themes cannot ship fonts. The design system recommends [JetBrains Mono](https://www.jetbrains.com/lp/mono/), or [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) if your prompt shows icons.
-- **Prompt**: the theme does not touch your prompt. It sets the colours fish's own prompts use for the directory, the user and the host; a [Starship](https://starship.rs) prompt brings its own.
+- **Prompt**: the theme does not touch your prompt. It sets the colours fish's own prompts use for the directory, the user and the host; a [Starship](https://starship.rs) prompt brings its own, and [Sepp’s Workshop for Starship](https://github.com/sepps-workshop/sepps-workshop-starship) gives it the same colours.
 
 ## How it is built
 
