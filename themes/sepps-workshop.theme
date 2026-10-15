@@ -17,7 +17,7 @@ fish_color_autosuggestion 9eadc7
 fish_color_error ff897b
 fish_color_status ff897b
 fish_color_valid_path --underline
-fish_color_selection --background=1b1f25
+fish_color_selection --background=4e4d39
 fish_color_search_match --background=343142
 fish_pager_color_selected_background --background=3e423e
 fish_pager_color_selected_completion e7eaf1

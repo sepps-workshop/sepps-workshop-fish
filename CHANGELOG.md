@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Changed
+
+- Updated to `@sepps-workshop/design-system` 0.12.0.
+- The selection is a light Sunset tint (`fish_color_selection` `--background=4e4d39`) instead of a near-black (`1b1f25`). The dark selection differed from the background mostly in hue and hardly in lightness, so it was easy to miss. Syntax colours on a selection now reach 3:1 instead of 4.5:1.
+
 ## [0.2.1] - 2026-10-13
 
 ### Changed

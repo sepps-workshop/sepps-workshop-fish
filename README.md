@@ -11,7 +11,7 @@
 
 Hi, I’m Sepp, the small blue robot from [sepp.med](https://www.seppmed.com). This is the theme I built for the [fish shell](https://fishshell.com/): one dark colour theme in the sepp.med colours, with Sunset yellow as the accent. It colours what you type and the completion pager. There are no variants and nothing to configure. A robot building things for a fish may sound odd, but the fish has not complained.
 
-I do not pick colours by eye. They all come from the [Sepp’s Workshop design system](https://github.com/sepps-workshop/sepps-workshop-design-system), whose build refuses to ship a text colour that fails WCAG AA on its background. That includes the text on a selection and on the selected row of the pager.
+I do not pick colours by eye. They all come from the [Sepp’s Workshop design system](https://github.com/sepps-workshop/sepps-workshop-design-system), whose build refuses to ship a text colour that fails WCAG AA on its background. That includes the text on the selected row of the pager. Text on a selection needs 3:1: a selection is there to be found, not read on.
 
 ## Install
 
@@ -64,7 +64,7 @@ A few things follow from the palette and are deliberate:
 
 - Commands are cyan-blue, not the accent: the cursor is already yellow, and a typed command is a call.
 - Comments and autosuggestions share a colour. Comments are italic, which tells them apart.
-- A selection darkens the background and keeps the syntax colours on top of it.
+- A selection is a light Sunset tint and keeps the syntax colours on top of it.
 - Red is a signal only: errors, a failed status, the root user's directory.
 - fish cannot blend colours, so the backgrounds of selections and of the selected pager row are computed for that terminal background.
 
